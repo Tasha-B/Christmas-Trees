@@ -37,10 +37,12 @@
 .header__consultation:hover {
     background-color: var(--main-bg-color);
 }
+
 .header__consultation:active {
     background-color: var(--main-bg-color);
     box-shadow: 0px 2px 6px 0px rgba(2, 67, 52, 0.36);
 }
+
 .header__consultation:focus {
     outline-color: var(--second-color);
 }
@@ -57,20 +59,20 @@
     .header {
         padding: 20px 0;
     }
-.header__container {
-    grid-template-columns: repeat(3, 1fr);
-    row-gap: 38px;
-}
-.header__burger {
-     grid-row: 1;
-     grid-column: 1;
-     justify-self: start;
-}
-.header__logo {
-    grid-row: 1;
-     grid-column: 2;
-    justify-self: center;
-}
+    .header__container {
+        grid-template-columns: repeat(3, 1fr);
+        row-gap: 38px;
+    }
+    .header__burger {
+        grid-row: 1;
+        grid-column: 1;
+        justify-self: start;
+    }
+    .header__logo {
+        grid-row: 1;
+        grid-column: 2;
+        justify-self: center;
+    }
     .header__consultation {
         padding: 8px 20px;
         border-radius: 6px;

@@ -42,7 +42,6 @@ font-size: 16px;
     }
 }
 
-@media (max-width: 1280px) {}
 @media (max-width: 1000px) {
     .navigation {
         display: none;
@@ -71,11 +70,8 @@ font-size: 16px;
     .navigation__item {
         flex-basis: calc(50% - 6px)
     }
-.navigation__list {
-    flex-wrap: wrap;
-    gap: 8px 6px;
-}
-}
-@media (max-width: 580px) {
-
+    .navigation__list {
+        flex-wrap: wrap;
+        gap: 8px 6px;
+    }
 }
